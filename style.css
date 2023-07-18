@@ -77,8 +77,8 @@ margin-left: 15px;
     justify-content: center;
 }
 
-.banner-img{
-
+.banner-img img{
+;
 }
 
 .pink-btn{
@@ -135,6 +135,25 @@ margin-left: 15px;
     
 }
 
+.online-game{
+    text-align: center;
+}
+
+.funny{
+    color: rgb(193, 16, 128);
+}
+
+.image-section{
+    display: flex;
+    width: 1000px;
+     margin: 0 auto;
+    
+}
+.image-section img{
+    width: 93%;
+    
+    
+}
 
 
 
@@ -163,14 +182,24 @@ li{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 20px;
+    
 }
-.banner-img{
-     
+
+.banner-content{
+    padding: 0px;
+}
+.banner-img img{
+     width: 70%;
+     ;
+}
+.we-are-img img{
+    width: 70%;
 }
 .We-are-container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     padding: 0px;
+    width: 50%;
 }
 .we-are-descriptoin{
     text-align: center;
@@ -182,8 +211,35 @@ li{
 }
 .we-are-content p{
     width: 200px;
+    text-align: center;
+}
+.online-game-title{
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.online-game-des{
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+.image-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     
+    
+}
+
+.img-section > .gm-img-one{
+    justify-content: center;
 }
  
+  
 }
     
 
