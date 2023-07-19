@@ -155,6 +155,54 @@ margin-left: 15px;
     
 }
 
+.download{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .tom-cat{
+    position: relative;
+    bottom: 250px;
+    right: 150px;
+ }
+.anywhere{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+
+}
+
+.liliput{
+    position: relative;
+    bottom: 250px;
+    left: 500px;
+}
+
+.anywhere-img{
+    width: 70%;
+}
+
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 30px;
+    row-gap: 40px;
+}
+
+.logo-three:hover{
+    border: 2px solid rgb(248, 29, 164);
+    width: 150px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: static;
+}
+.footer-container{
+    justify-content: center;
+}
+ 
+
 
 
 
@@ -189,11 +237,11 @@ li{
     padding: 0px;
 }
 .banner-img img{
-     width: 70%;
-     ;
+     width: 80%;
+     
 }
 .we-are-img img{
-    width: 70%;
+    width: 90%;
 }
 .We-are-container{
     display: grid;
@@ -234,12 +282,62 @@ li{
      
     
 }
-
-.img-section > .gm-img-one{
-    justify-content: center;
+.download{
+    flex-direction: column;
 }
- 
-  
+ .download-img img{
+    width: 60%;
+    margin-left: 50px;
+ }
+ .tom-cat img{
+    width: 60%;
+ }
+
+ .tom-cat{
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+right: 50px;
+    bottom: 70px;
+ }
+
+ .anywhere{
+    flex-direction: column;
+ }
+ .anywhere-img img{
+    width: 80%;
+    height: 100%;
+ }
+ .liliput img{
+    width: 40%;
+ }
+ .liliput{
+    left: 150px;
+    bottom: 100px;
+ }
+ .anywhere-content p{
+    max-width: 220px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+ }
+ .anywhere-content h1{
+    margin-left: 50px;
+    margin-bottom: 0px;
+ }
+.logo-six, .logo-seven, .logo-eight, .logo-nine{
+    display: none;
+}
+.logo-container{
+    grid-template-columns: repeat(4,1fr);
+     margin: 0 auto;
+    gap: 0px;
+    width: 100%;
+}
+.footer-logo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 }
     
 
